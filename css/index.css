@@ -1,0 +1,68 @@
+
+    .footer {
+        /* position: fixed; */
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: left;
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-gap: 50px;
+        
+
+    }
+    .footer>ul>li {
+        list-style-type: none;
+    }
+
+    .footer-heading {
+        font-size: 24px;
+        color: aliceblue;
+        font-style: normal;
+        background-color: rgb(82, 17, 17);
+        border-radius: 50px;
+        
+
+
+    }
+    .membership-cards {
+        /* left: 0; */
+        /* bottom: 0; */
+        /* width: 100%; */
+        /* text-align: left; */
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-gap: 50px;
+    }
+    
+    .future-GIS {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap: 50px;
+        /* background-color: rgb(19, 104, 19); */
+        margin: 50px;
+    
+    }
+    #our-members {
+        /* background-color: aqua; */
+        grid-gap: 50px;
+        background-image: url(../public/images/operation-paperclip-scientists-at-fort-bliss-featured.webp);
+    }
+    #conference {
+        /* background-color: greenyellow; */
+        height: 260px;
+        grid-gap: 50px;
+        background-image: url(../public/images/floating-through-the.jpg);
+        color: azure;
+    }
+    #conference-content {
+        padding-left: 10px;
+    }
+    .Community {
+        text-align: center;
+        background-color: rgb(24, 19, 19);
+        color: beige;
+
+    }
