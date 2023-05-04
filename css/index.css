@@ -37,7 +37,7 @@
         grid-gap: 50px;
     }
     
-    .future-GIS {
+     .future-GIS {
         display: grid;
         grid-template-columns:repeat(2,1fr);
         grid-gap: 50px;
@@ -51,8 +51,7 @@
         background-image: url(../public/images/operation-paperclip-scientists-at-fort-bliss-featured.webp);
     }
     #conference {
-        /* background-color: greenyellow; */
-        height: 260px;
+        /* background-color: gr */
         grid-gap: 50px;
         background-image: url(../public/images/floating-through-the.jpg);
         color: azure;
@@ -75,4 +74,28 @@
         display: grid;
         grid-template-columns:repeat(2,1fr);
         grid-gap: 50px;
+    
+    }
+    .dropdown-content {
+        background-color: white;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba (0, 0, 0, 0.2);
+        z-index: 1;
+    
+
+    }
+
+    .dropdown-content>ul{
+        display: flex;
+        justify-content: right;
+    }
+
+    .dropdown-content>ul>li{
+        margin:20px;
+    }
+    #map {
+        background-image: url(../public/images/images.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
     }
